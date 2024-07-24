@@ -5,33 +5,34 @@
 //Task 1: Create an array of numbers from 1 to 5 and log the array to the console.
 
 const arr = [1,2,3,4,5];
-console.log(arr);
+console.log(arr);         //Outputs:[ 1, 2, 3, 4, 5 ]
 
 //Task 2: Access the first and last elements of the array and log them to the console.
 
 console.log(`${arr[0]} is the first element and ${arr[4]} is the last element`);
+//Outputs:1 is the first element and 5 is the last element
 
 //Activity 2: Array Methods (Basic)
 
 //Task 3: Use the `push` method to add a new number to the end of the array and log the updated array.
 
 arr.push(6,7);
-console.log(arr);
+console.log(arr);     //Outputs:[1, 2, 3, 4,5, 6, 7]
 
 //Task 4: Use the `pop` method to remove the last element from the array and log the updated array.
 
 arr.pop();
-console.log(arr);
+console.log(arr);      //Output:[ 1, 2, 3, 4, 5, 6 ]
 
 //Task 5: Use the `shift` method to remove the first element from the array and log the updated array.
 
 arr.shift();
-console.log(arr);
+console.log(arr);     //Outputs:[ 2, 3, 4, 5, 6 ]
 
 //Task 6: Use the `unshift` method to add a new number to the beginning of the array and log the updated array.
 
 arr.unshift(8,9);
-console.log(arr);
+console.log(arr);     //Outputs:[8, 9, 2, 3,4, 5, 6]
 
 //Activity 3: Array Methods (Intermediate)
 
@@ -43,7 +44,7 @@ function myfunction(num){
   return num * 10;
 }
 
-console.log(newArr);
+console.log(newArr);      //Outputs:[80, 90, 20, 30,40, 50, 60]
 
 //Task 8: Use the `filter` method to create a new array with only even numbers and log the new array.
 
@@ -53,7 +54,7 @@ function myfunction1(num1){
   return num1 < 40;
 }
 
-console.log(newArr1);
+console.log(newArr1);     //Outputs:[8, 9, 2, 3,4, 5, 6]
 
 //Task 9: Use the `reduce` method to calculate the sum of all numbers in the array and log the result.
 
@@ -73,7 +74,7 @@ console.log(sum); // Output: 15
 for (let i = 0; i < arr.length; i++) {
   const element = arr[i];
   console.log(element);
-}
+}                                           //Outputs:8 9 2 3 4 5 6
 
 //Task 11: Use the `forEach` method to iterate over the array and log each element to the console.
 
@@ -84,7 +85,7 @@ function myFunction(item, index, arr) {
   arr[index] = item * 10;
 }
 
-console.log(num);
+console.log(num);                 //Outputs:[ 650, 440, 120, 40 ]
 
 //Activity 5: Multi-dimensional Arrays
 
