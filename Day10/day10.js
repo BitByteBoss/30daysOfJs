@@ -18,6 +18,7 @@ const element = document.getElementById('myElement');
 
 element.addEventListener('mouseover', () => {
   element.style.backgroundColor = 'lightblue';
+  
 });
 
 // Task 4: Mouseout Event Listener
