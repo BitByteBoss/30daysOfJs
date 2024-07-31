@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Day 9</title>
+  <style>
+    .highlight {
+      background-color: yellow;
+    }
+
+    #my-element {
+      width: 200px;
+      height: 100px;
+      border: 2px solid black;
+      text-align: center;
+      line-height: 100px;
+    }
+  </style>
+</head>
+<body>
+
+  <p id="demo" 
+    onclick="
+     task1()
+    ">Click me to change Text
+  </p>
+
+  <div class="Class"
+  >Hello World
+  </div>
+
+  <div class="task3">
+    <h3>item1</h3>
+    <h3>item2</h3>
+    <h3>item3</h3>
+  </div>
+
+  <ul class="task4">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>
+  
+  <div id="remove-me">This element will be removed</div>
+  <button onclick="removeElement()">remove Element</button>
+
+
+  <div id="parent-element">
+    <div>Child 1</div>
+    <div>Child 2</div>
+    <div>Child 3</div>
+  </div>
+
+  <button onclick="removeLastChild()">Remove Last Child</button>
+
+
+  <img class="my-image-class" src="old-image.jpg" alt="Sample Image">
+
+  <button onclick="changeImageSourceByClass()">Change Image Source by Class</button>
+
+  <div id="my-element">This is my element.</div>
+
+  <button onclick="addClass()">Add Class</button>
+  <button onclick="removeClass()">Remove Class</button>
+
+
+  <p id="my-paragraph">This is the original text.</p>
+  <button id="my-button">Change Text</button>
+
+  <div id="my-element">Hover over me!</div>
+  
+  <script src="day9.js"></script>
+</body>
+</html>
